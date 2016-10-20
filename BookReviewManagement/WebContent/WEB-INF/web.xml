@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>BookReviewManagement</display-name>
+  <welcome-file-list>
+    <welcome-file>login.html</welcome-file>
+  </welcome-file-list>
+  <filter>
+    <filter-name>FilterDispatcher</filter-name>
+    <filter-class>Cybage.net.FilterDispatcher</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>FilterDispatcher</filter-name>
+    <url-pattern>/Validator</url-pattern>
+  </filter-mapping>
+</web-app>
